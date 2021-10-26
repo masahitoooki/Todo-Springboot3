@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+p {
+  display: inline-block;
+}
+
+.create-todo {
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.create-todo input {
+  font-size: 1em;
+  line-height: 1.2;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 0.5em 0.5em;
+  width: 300px;
+}
+
+.create-todo button {
+  font-size: 1em;
+  line-height: 1.2;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #008CBA;
+  cursor: pointer;
+  color: white;
+  display: inline-flex;
+  justify-content: center; /* コンテンツを水平方向に中央揃え */
+  align-items: center; /* コンテンツを垂直方向に中央揃え */
+  padding: 0.5em 1.2em;
+}
+
+.todo-error-message {
+  color: red;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* 未完了、完了済みタスクエリア */
+.flex {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0 0 0;
+}
+
+.incomplete {
+  text-align: center;
+  width: 400px;
+  background-color: pink;
+}
+
+.incomplete form {
+  display: inline;
+}
+
+.incomplete button {
+  background-color: white;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center; /* コンテンツを水平方向に中央揃え */
+  align-items: center; /* コンテンツを垂直方向に中央揃え */
+}
+
+.complete {
+  text-align: center;
+  width: 400px;
+  background-color: green;
+}
